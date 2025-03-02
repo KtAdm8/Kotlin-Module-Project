@@ -1,3 +1,5 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+val archives = mutableListOf<Archive>()
+
+fun main() {
+    ArchiveMenu().show()
 }
